@@ -1,7 +1,7 @@
 ## This code is used to initalise the camera to be used on a raspberry pi
 ## This code was written on the raspberry pi terminal
 
-sudo pip3 install matplotlib scipy numpy
+sudo pip3 install matplotlib scipy numpy ##allows camera output to be plotted in python
 
 ## enables i2c communication
 sudo apt-get install -y python-smbus
