@@ -6,3 +6,6 @@ import busio
 import adafruit_mlx90640
 import matplotlib.pyplot as plt ##library used to create plot
 import numpy as np  ##library used to manipulate data from camera
+
+
+i2c = busio.I2C(board.SCL, board.SDA, frequency= 400000) #setup i2c communication
