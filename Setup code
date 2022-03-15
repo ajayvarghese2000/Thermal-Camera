@@ -6,3 +6,7 @@ sudo pip3 install matplotlib scipy numpy
 ## enables i2c communication
 sudo apt-get install -y python-smbus
 sudo apt-get install -y i2c-tools
+
+sudo nano /boot/config.txt ## check i2c communication
+
+sudo reboot ##reboot Pi
