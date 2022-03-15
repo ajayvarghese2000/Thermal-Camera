@@ -1,1 +1,6 @@
+This file outputs the thermal image from the camera
 
+import time
+import board
+import busio
+import adafruit_mlx90640
