@@ -12,3 +12,6 @@ sudo nano /boot/config.txt ## check i2c communication
 sudo reboot ##reboot Pi
 
 sudo i2cdetect -y 1 ## check  pi registers the thermal camera
+
+sudo pip3 install RPI.GPI adafruit-blinka
+sudo pip3 install adafruit-circuitpython-mlx90640
