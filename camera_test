@@ -12,3 +12,5 @@ frame = [0] * 768 ## array used to store temperatures
 while True:
     try:
         mlx.getFrame(frame)
+    except ValueError:
+        continue
