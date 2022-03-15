@@ -2,8 +2,6 @@ import time
 import board 
 import busio
 import adafruit_mlx90640
-import matplotlib.pyplot as plt ##used to plot image from camera
-import numpy as np
 
 
 i2c = busio.I2C(board.SCL, board.SDA, frequency = 800000)  #setup i2c communication
