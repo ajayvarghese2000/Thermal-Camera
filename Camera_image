@@ -4,3 +4,5 @@ import time
 import board
 import busio
 import adafruit_mlx90640
+import matplotlib.pyplot as plt ##library used to create plot
+import numpy as np  ##library used to manipulate data from camera
