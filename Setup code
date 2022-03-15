@@ -3,3 +3,6 @@
 
 sudo pip3 install matplotlib scipy numpy
 
+## enables i2c communication
+sudo apt-get install -y python-smbus
+sudo apt-get install -y i2c-tools
