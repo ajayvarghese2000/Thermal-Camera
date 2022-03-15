@@ -1,4 +1,4 @@
 import time
-imot board 
+import board 
 import busio
 import adafruit_mlx90640
