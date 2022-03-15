@@ -8,3 +8,7 @@ mlx = adafruit_mlx90640.MLX90640(i2c)  ## begin i2c communication on camera
 mlx.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_2_HZ
 
 frame = [0] * 768 ## array used to store temperatures
+
+while True:
+    try:
+        mlx.getFrame(frame)
