@@ -14,3 +14,4 @@ mlx.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_4_Hz
 mlx_shape = (24,32) ## camera width and length
 
 plt.ion ##enable interactive plotting
+fig,ax = plt.subplots(figsize(24,32))
