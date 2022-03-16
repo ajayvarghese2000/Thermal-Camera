@@ -16,3 +16,4 @@ mlx_shape = (24,32) ## camera width and length
 plt.ion ##enable interactive plotting
 fig,ax = plt.subplots(figsize(24,32))
 cam1 = ax.imshow(np.zeros(mlx_shape))
+cbar = fig.colorbar(therm1)
