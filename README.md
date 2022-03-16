@@ -42,7 +42,9 @@ The thermal camera is directly connected to the Main Pi system, as it already us
 
 
 ### Wiring Diagram
-*To be added when PCB finalised*
+<p align="center">
+	<img src="https://i.imgur.com/fRkNJH9.jpg" alt="drawing"/>
+</p>
 
 ------------
 
