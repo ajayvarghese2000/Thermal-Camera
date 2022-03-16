@@ -23,6 +23,6 @@ time_array = []
 while True:
       current = time.monotonic()
       try:
-         
+         mlx.getFrame(frame)
       except ValueError:
           continue
