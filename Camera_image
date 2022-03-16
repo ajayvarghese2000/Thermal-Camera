@@ -22,3 +22,7 @@ frame = np.zeros((24*32,))
 time_array = []
 while True:
       current = time.monotonic()
+      try:
+         
+      except ValueError:
+          continue
