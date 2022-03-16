@@ -20,3 +20,5 @@ cbar = fig.colorbar(therm1)
 
 frame = np.zeros((24*32,))
 temp_array = []
+while True:
+      current = time.monotonic()
