@@ -58,9 +58,8 @@ The thermal camera is directly connected to the Main Pi system, as it already us
 
 <div align="center">
 
-|Objective		|Testing Strategy 		|Expected Output		|Current Output			|Pass/Fail|
-|Get camera to read and ||--				|--				|:--:				|
-|store temperature data |
+|Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
+|--|--|--|--|:--:|
 
 </div>
 
