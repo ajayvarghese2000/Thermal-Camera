@@ -60,7 +60,8 @@ The thermal camera is directly connected to the Main Pi system, as it already us
 
 |Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
 |--|--|--|--|:--:|
-	|Get camera to read and store tempaeratures|Connect camera to raspberry Pi and upload test code to the Pi|Temperature should be displayed|Temperature is displayed as expected|Pass|
+|Functionality of thermal camera|Connect camera to raspberry Pi. Upload test code written in chosen software to the Pi. Test code displays temperatures read by the camera|Temperature should be displayed|Temperature is displayed as expected|:heavy check mark:|
+|Display Image data|Connect camera to raspberry Pi. Upload code written in chosen software to the Pi. Point camera at different objects of different tempaeratures|Thermal image of object should be displayed for each object|N/A|Testing to be implemented|
 
 </div>
 
