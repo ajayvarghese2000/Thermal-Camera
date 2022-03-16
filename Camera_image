@@ -24,5 +24,6 @@ while True:
       current = time.monotonic()
       try:
          mlx.getFrame(frame)
+         cam1.set_data(frame)
       except ValueError:
           continue
