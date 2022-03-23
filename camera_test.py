@@ -3,8 +3,6 @@ import board
 import busio
 import adafruit_mlx90640
 
-PRINT_TEMPERATURES = True
-
 i2c = busio.I2C(board.SCL, board.SDA, frequency = 800000)  #setup i2c communication
 mlx = adafruit_mlx90640.MLX90640(i2c)  ## begin i2c communication on camera
 mlx.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_2_HZ
