@@ -24,6 +24,7 @@ while True:
       current = time.monotonic()
       try:
          mlx.getFrame(frame)
+         data_array = (np.reshape(frame,mlx_shape))
          cam1.set_data(frame)
       except ValueError:
           continue
