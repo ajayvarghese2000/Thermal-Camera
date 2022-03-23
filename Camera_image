@@ -19,7 +19,7 @@ cam1 = ax.imshow(np.zeros(mlx_shape))
 cbar = fig.colorbar(therm1)
 
 frame = np.zeros((24*32,))
-time_array = []
+
 while True:
       current = time.monotonic()
       try:
