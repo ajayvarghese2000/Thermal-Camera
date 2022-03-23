@@ -17,6 +17,7 @@ plt.ion ##enable interactive plotting
 fig,ax = plt.subplots(figsize(24,32))
 cam1 = ax.imshow(np.zeros(mlx_shape))
 cbar = fig.colorbar(therm1)
+cbar.set_label('Temperature [$^{\circ}$C]')
 
 frame = np.zeros((24*32,))
 
