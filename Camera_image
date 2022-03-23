@@ -25,6 +25,6 @@ while True:
       try:
          mlx.getFrame(frame)
          data_array = (np.reshape(frame,mlx_shape))
-         cam1.set_data(frame)
+         cam1.set_data(np.fliplr(data_array))
       except ValueError:
           continue
