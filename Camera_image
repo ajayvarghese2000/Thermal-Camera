@@ -27,5 +27,7 @@ while True:
          mlx.getFrame(frame)
          data_array = (np.reshape(frame,mlx_shape))
          cam1.set_data(np.fliplr(data_array))
+         cam1.set_clim(vmin=np.min(data_array), vmax=np.max(data_array)) #sets colour bar values to be
+         equal to lowest and highest tempaerature in data array
       except ValueError:
           continue
