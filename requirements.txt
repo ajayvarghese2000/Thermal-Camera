@@ -1,0 +1,5 @@
+matplotlib
+numpy
+adafruit-circuitpython-mlx90640
+RPI.GPI
+adafruit-blinka

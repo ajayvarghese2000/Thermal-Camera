@@ -93,12 +93,29 @@ The MLX90640 is a complete package that can output the temperature at each pixel
 
 ## Installation
 
-*How to download and setup the code on the Pi Pico/Pi*
+**Step 0** : Setup a Raspberry Pi with linux.
+
+**Step 1** : Clone the repo to the target device, If you have git installed you can do so by running the following.
+
+```
+git clone https://github.com/lboroWMEME-TeamProject/Thermal-Camera.git
+```
+
+**Step 3** : Install the Python dependencies using pip.
+
+```
+pip install -r requirements.txt
+```
+
+After that you have completed the installation you can run the code by importing the thermal camera module and running the `get_image()` function.
+
 
 ------------
 
 ## Deployment
 
-*How to get it running and outputting data*
+Deployment is very easy. 
+
+Copy the `thermal_camera.py` file to your project folder and import the module. Then you can create a thermal camera object and run the `get_image()` function to get the image.
 
 ------------
