@@ -65,20 +65,26 @@ The thermal camera is directly connected to the Main Pi system, as it already us
 
 ## Code Overview
 
-*breakdown of how the code is structured*
+The MLX90640 is a complete package that can output the temperature at each pixel of the sensor. However, to convert this to an image a gradient map must be applied to the data and plotted to effectively get an image. This raw image is then put through a Bilinear interpolation algorithm to smooth out the rough square pixels into something that reflects the actual image. After that it is converted from an array of values to an image and sent off.
+
+### Flowchart
+
+
+<p align="center">
+	<img src="https://i.imgur.com/Dyt0v2a.png" width="250px"alt="drawing"/>
+</p>
+
 
 ------------
 
 ## Test Plan
-
-*to be added*
 
 <div align="center">
 
 |Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
 |--|--|--|--|:--:|
 |Functionality of thermal camera|Connect camera to raspberry Pi. Upload test code written in chosen software to the Pi. Test code displays temperatures read by the camera|Temperature should be displayed|Temperature is displayed as expected|:heavy_check_mark:|
-|Display Image data|Connect camera to raspberry Pi. Upload code written in chosen software to the Pi. Point camera at different objects of different tempaeratures|Thermal image of object should be displayed for each object|Testing to be implemented|N/A|
+|Display Image data|Connect camera to raspberry Pi. Upload code written in chosen software to the Pi. Point camera at different objects of different temperatures|Thermal image of object should be displayed for each object|Testing to be implemented|N/A|
 
 </div>
 
