@@ -84,7 +84,8 @@ The MLX90640 is a complete package that can output the temperature at each pixel
 |Objective|Testing Strategy|Expected Output|Current Output|Pass/Fail|
 |--|--|--|--|:--:|
 |Functionality of thermal camera|Connect camera to raspberry Pi. Upload test code written in chosen software to the Pi. Test code displays temperatures read by the camera|Temperature should be displayed|Temperature is displayed as expected|:heavy_check_mark:|
-|Display Image data|Connect camera to raspberry Pi. Upload code written in chosen software to the Pi. Point camera at different objects of different temperatures|Thermal image of object should be displayed for each object|Testing to be implemented|N/A|
+|Display Image data|Connect camera to raspberry Pi. Upload code written in chosen software to the Pi. Point camera at different objects of different temperatures|Thermal Image displayed correctly. |The image is being displayed correctly and as expected|:heavy_check_mark:|
+|Sending the image data correctly|Generate the image from the thermal camera then send it back to the Main Pi which will print the data in received to the console|The image data should be output as a Base64 String onto the console that can then be converted back into a PNG or similar.|Once a image has been generated the Base64 string is printed to the console. This can be successfully converted back into a PNG to display the original image.|:heavy_check_mark:|
 
 </div>
 
