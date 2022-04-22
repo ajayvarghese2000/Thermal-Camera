@@ -116,6 +116,6 @@ After that you have completed the installation you can run the code by importing
 
 Deployment is very easy. 
 
-Copy the `thermal_camera.py` file to your project folder and import the module. Then you can create a thermal camera object and run the `get_image()` function to get the image.
+Copy the `thermal_camera_sensor.py` file to your project folder and import the module. Then you can create a thermal camera object and run the `get_image()` function to get the image.
 
 ------------
